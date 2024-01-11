@@ -338,8 +338,8 @@ class App extends Component {
           />
 
           <ul className="sub-header">
-            <li>
-              <p className="scoreBoard">Score: {score}</p>
+            <li className="scoreBoard">
+              <p>Score: <span className="spanEl">{score}</span></p>
             </li>
             <li className="timerBoard">
               <img
